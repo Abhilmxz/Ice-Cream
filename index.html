@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--~~~~~~~~~~~~~~~ FAVICON ~~~~~~~~~~~~~~~-->
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+
+  <!--~~~~~~~~~~~~~~~ REMIX ICON ~~~~~~~~~~~~~~~-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.min.css" integrity="sha512-6sfYTBLNjOZhwJ5g/J0529qHqIdXxO1BycUHd1LIJjEzVCzX8cHtoXDgd+ylrqCl/OZM/RMDgkn2Dd41lJsJjw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--~~~~~~~~~~~~~~~ SWIPER ~~~~~~~~~~~~~~~-->
+
+  <!--~~~~~~~~~~~~~~~ OUTPUT.CSS ~~~~~~~~~~~~~~~-->
+  <link href="./output.css" rel="stylesheet">
+
+  <title>Ice Cream Website || TailwindCSS </title>
+
+</head>
+<body>
+    <!--~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~-->
+    <header id="navbar" class="bg-white fixed top-0 left-0 z-10 w-full">
+        <nav class="container flex items-center justify-between h-16 sm:h-20">
+            <!--hamburger-->
+            <div class="text-xl cursor-pointer sm:text-2xl lg:hidden">
+                <i class="ri-menu-4-line" id="hamburger"></i> 
+            </div>
+            <!-- logo -->
+            <img src="./assets/images/logo.png" alt="logo" class="w-28 md:w-40">
+            <!-- menu items -->
+             <div id="nav-menu" class="bg-white absolute top-0 left-[-100%] min-h-[80vh] w-full border-b border-emerald-800 px-5 duration-500 ease-out overflow-hidden z-20 md:px-10 md:w-1/2 lg:static lg:border-0 lg:min-h-fit lg:bg-transparent lg:w-auto">
+                <ul class="flex flex-col items-start gap-8 pt-20 lg:pt-0 lg:flex-row">
+                    <li>
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#shop" class="nav-link">Shop</a>
+                    </li>
+
+                    <li>
+                        <a href="#ingredients" class="nav-link">Ingredients</a>
+                    </li>
+
+                    <li>
+                        <a href="#blogs" class="nav-link">Blogs</a>
+                    </li>
+                </ul>
+
+                <div class="text-xl cursor-pointer absolute top-5 right-5 sm:text-2xl lg:hidden">
+                    <i class="ri-close-large-line" id="closeicon"></i>
+                </div>
+
+                <div class="flex items-center gap-5 text-xl cursor-pointer pt-20 sm:text-2xl lg:hidden">
+                    <i class="ri-search-line"></i>
+                    <i class="ri-user-line"></i>
+                    <div class="relative">
+                        <i class="ri-heart-line"></i>
+                        <span class="font-bold absolute top-0 left-4 bg-firstcolor text-white text-xs w-5 h-5 rounded-full grid place-items-center">0</span>  
+                    </div>
+                </div>
+             </div>
+          
+
+             <div class="flex items-center gap-5 text-xl cursor-pointer sm:text-2xl">
+                <i class="hidden lg:block ri-search-line"></i>
+                <i class="hidden lg:block ri-user-line"></i>
+                <div class="hidden relative">
+                    <i class="ri-heart-line"></i>
+                    <span class="font-bold absolute top-0 left-4 bg-firstcolor text-white text-xs w-5 h-5 rounded-full grid place-items-center">0</span>  
+                </div>
+                <div class="relative">
+                    <i class="ri-shopping-cart-line"></i> 
+                    <span class="font-bold absolute top-0 left-4 bg-firstcolor text-white text-xs w-5 h-5 rounded-full grid place-items-center">0</span>
+                </div>  
+        </nav>
+    </header>
+
+    <!--~~~~~~~~~~~~~~~ HERO ~~~~~~~~~~~~~~~-->
+    <section id="home" class="relative bg-yellow-300 text-center pt-32 pb-5 px-4 lg:pt-44">
+        <div class="md:space-y-5">
+            <h4>Loaded with Flavor</h4>
+            <h1>Refreshing Taste</h1>
+        </div>
+
+        <div class="relative mt-8 max-w-sm mx-auto md:max-w-md md:mt-12 lg:max-w-lg xl:max-w-xl">
+            <img src="./assets/images/hero.png" alt="hero image" class="w-full">
+
+
+            <img src="./assets/images/funny_monster_1.png" alt="funny_monster image" class="w-14 absolute top-0 left-0 -rotate-45 opacity-50 sm:top-10 sm:left-5 md:w-16 lg:w-20">
+            <img src="./assets/images/funny_monster_2.png" alt="funny_monster image" class="w-14 absolute top-0 right-0 -rotate-45 opacity-50 sm:top-10 sm:right-5 md:w-16 lg:w-20">
+        </div>
+            <!-- PROBLEM ON HERE -->
+        <div class="hidden lg:block">
+            <img src="./assets/images/leaf_1.png" alt="leaf 1" class="w-32 absolute top-40 right-20 blur-[1px] xl:right-40">
+            <img src="./assets/images/leaf_1.png" alt="leaf 1" class="w-32 absolute bottom-32 left-20 blur-[1px] rotate-180 xl:left-40">
+            <img src="./assets/images/leaf_2.png" alt="leaf 2" class="w-28 absolute top-32 left-20 blur-[2px] xl:left-40">
+            <img src="./assets/images/leaf_2.png" alt="leaf 2" class="w-28 absolute bottom-32 right-20 blur-[2px] rotate-90 xl:right-40">
+        </div>
+    </section>
+
+    <!--~~~~~~~~~~~~~~~ FEATURED-INFO ~~~~~~~~~~~~~~~-->
+    <section>
+
+    </section>
+    
+    <!--~~~~~~~~~~~~~~~ PROMO ~~~~~~~~~~~~~~~-->
+    <section>
+
+    </section>
+    
+    <!--~~~~~~~~~~~~~~~ SHOP ~~~~~~~~~~~~~~~-->
+    <section id="shop">
+
+    </section>
+    
+    <!--~~~~~~~~~~~~~~~ SEASONAL-PROMO ~~~~~~~~~~~~~~~-->
+    <section>
+
+    </section>
+    
+    <!--~~~~~~~~~~~~~~~ INGREDIENTS ~~~~~~~~~~~~~~~-->
+    <section id="ingredients">
+
+    </section>
+    
+    <!--~~~~~~~~~~~~~~~ FLAVOR-INFO ~~~~~~~~~~~~~~~-->
+    <section>
+
+    </section>
+    
+    <!--~~~~~~~~~~~~~~~ BLOGS ~~~~~~~~~~~~~~~-->
+    <section id="blogs">
+
+    </section>
+
+    <!--~~~~~~~~~~~~~~~ NEWSLETTER ~~~~~~~~~~~~~~~-->
+    <footer>
+
+    </footer>
+
+    <!--~~~~~~~~~~~~~~~ SCROLL UP ~~~~~~~~~~~~~~~-->
+
+
+    <!--~~~~~~~~~~ SWIPER.JS ~~~~~~~~~~-->
+    
+    <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ MAIN.JS ~~~~~~~~~~-->
+    <script src="main.js"></script>
+</body>
+</html>
